@@ -158,7 +158,7 @@ img {
 
 /*MUSIC*/
 .music-player-container{
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     height: 20%;
     width: 100%;
     border-radius: 10px;
