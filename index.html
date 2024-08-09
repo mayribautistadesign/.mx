@@ -58,8 +58,26 @@
                     <h5 class="text-white " data-aos="fade-right">NUESTRA BODA</h5>
                     <h1 data-aos="fade-left" class="text-uppercase text-white display-3">Jorge & Esmeralda</h1>
                     <h4 class="text-white" data-aos="fade-right">19 · OCTUBRE · 2024</h4>
-                    <div data-aos="fade-up" data-aos-delay="50">
+                    
+                </div>
+            </div>
+            <div class="music-player-container">
+                <div class="controls-music-container">
+                    <div class="progress-song-container">
+                        <div class="progress-bar">
+                            <span class="progress"></span>
+                        </div>
                     </div>
+                    <div class="time-container">
+                        <span class="time-left" id="CurrentSongTime"></span>
+                        <span class="time-left" id="SongLength"></span>
+                    </div>
+                </div>
+                <audio controls preload="metadata" src="audio/yellow.mp3"></audio>
+                <div class="main-song-controls">
+                    <img src="img/Backward.svg" alt="" class="iconM" id="Back10">
+                    <img src="img/Play.svg" alt="" class="iconM" id="PlayPause">
+                    <img src="img/Forward.svg" alt="" class="iconM" id="Plus10">
                 </div>
             </div>
         </div>
@@ -68,6 +86,11 @@
     <!-- ABOUT -->
     <section id="about" class="section-padding">
         <div class="container">
+            <section>
+                
+            </section>
+            <br>
+
             <section data-aos="fade-down" data-aos-delay="50">
                 <div class="section-title text-center">
                     <h1 class="display-5 fw-semibold">Faltan</h1>
@@ -346,6 +369,7 @@ Por favor confirme al dar click en el botón y escriba su nombre completo.
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/code.js"></script>
 </body>
 
 </html>
