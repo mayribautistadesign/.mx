@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mariana y Edwin</title>
+    <link rel="icon" href="./img/logoJE.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+        <div class="container">
+            <a class="navlogo navbar-brand" href="#">
+                <h2>Mariana y Edwin</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar">Lugar y fecha</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recomendaciones">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mesaRegalos">Regalos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#itinerario">Protocolo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="min-vh-100 d-flex align-items-center text-center">
+        <div class="container">
+            <div class="row">
+                <div class="section-titleP text-center">
+                    <h1 data-aos="fade-left" class="fw-semibold display-1">Mariana y Edwin</h1>
+                    <h4 class="fw-semibold  section-titleF" data-aos="fade-right">27.10.2024</h4>
+                </div>
+            </div>
+            
+            <div class="music-player-container">
+                <div class="controls-music-container">
+                    <div class="progress-song-container">
+                        <div class="progress-bar">
+                            <span class="progress"></span>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <span class="time-left" id="CurrentSongTime"></span>
+                        <span class="time-left" id="SongLength"></span>
+                    </div>
+                </div>
+                <audio controls preload="metadata" src="audio/yellow.mp3"></audio>
+                <div class="main-song-controls">
+                    <img src="img/Backward.svg" alt="" class="iconM" id="Back10">
+                    <img src="img/Play.svg" alt="" class="iconM" id="PlayPause">
+                    <img src="img/Forward.svg" alt="" class="iconM" id="Plus10">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-padding ">
+        <div class="container">
+            <section data-aos="fade-down" data-aos-delay="50">
+                <div class="section-title text-center">
+                    <h1 class="display-1 fw-semibold titleDorado">¡Faltan!</h1>
+                </div>
+
+                <br><br>
+                <table style="width: 100% " class=" table table-borderless text-center">
+                    <thead>
+                      <tr class="display-6">
+                        <th scope="col"><span id="days"></span></th>
+                        <th scope="col"><span id="hours"></span></th>
+                        <th scope="col"><span id="minutes"></span></th>
+                        <th scope="col"><span id="seconds"></span></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Días</td>
+                        <td>Horas</td>
+                        <td>Minutos</td>
+                        <td>Segundos</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        
+    </section>
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3936.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3936.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+
+
+    <!-- Frase -->
+    <section id="frase" class="section-padding border-top fondoazul">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-2 fw-semibold titleDorado">¡Nos casamos!</h1>
+                        <div class="text-white">
+                            <br>
+                            <p>Estamos muy felices de unir nuestras vidas en matrimonio y deseamos que tú seas
+                                parte de esta ocasión tan especial...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3855.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3855.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+
+    <!-- lugar -->
+    <section id="lugar" class="section-padding border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-2 fw-semibold titleDorado">¿Dónde y cuando?</h1>
+                            <br>
+                            <div>
+                                <h2>Ceremonia civil</h2>
+                                <br>
+                                <p>"Jardín la Antigua" <br> (Área verde) <br>Periférico Sur Durango, 34308 <br>
+                                    La Ferrería, Dgo.
+                                    <br><br>
+                                    6:00 P.M.
+                                </p>
+                                
+                                <a href="https://maps.app.goo.gl/LEiTGbfLARsNDK7NA?g_st=com.google.maps.preview.copy" class="btn btn-brand me-2">ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3976.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3976.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3908.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3908.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+
+    <!-- recepcion -->
+    <section id="recepcion" class=" fondoazul section-padding border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+                    <div class="section-title">
+                        <h1 class="display-2 fw-semibold titleDorado">Recepción</h1>
+                            <br>
+                            <div class="text-white">
+                                <p>"Jardín la Antigua" <br><br>Periférico Sur Durango, 34308 <br>
+                                    La Ferrería, Dgo.
+                                    <br><br>
+                                    8:00 P.M.
+                                    <br>
+                                </p>
+
+                                <br>
+                                <p>Para nosotros es muy importante que confirmes tu asistencia antes del 01 de Septiembre del 2024.</p>
+                                
+                                <a href="" class="btnBlanco btnBlanco-brand me-2">confirmar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3939.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3939.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+    
+<!-- RECOMENDACIONES -->
+<section id="recomendaciones" class="section-padding border-top">
+    <div class="row">
+        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+            <div class="section-title">
+                <h1 class="display-1 fw-semibold titleDorado">Recomendaciones</h1>
+            </div>
+            <br>
+            <div  data-aos="fade-down" data-aos-delay="50">
+                <h2>Código de vestimenta</h2>
+                <div>
+                    <h4>- Formal -</h4>
+                    <br>
+                    
+                    <div class="mesa">                    
+                        <img src="./img/suit-and-tie-outfit.png" alt="">
+                    </div>
+                    <div>
+                        <h5>Hombres: Traje.
+                        </h5> 
+                    </div>
+                    
+                </div>
+                <br><br>
+                <div>
+                    <div class="mesa">
+                        <img src="./img/vestido-largo-negro.png" alt="">
+                    </div>
+                    <div>
+                        <h5>Mujeres: <br> Vestido largo (Noche).
+                        </h5> 
+                    </div>
+                </div>
+                <br><br>
+                <div>
+                    <h5>No colores blanco o parecido.
+                    </h5> 
+                </div>
+
+                <br><br><br>
+            <div data-aos="fade-down" data-aos-delay="350">
+                <div class="service theme-shadow p-lg-5 p-4">
+                    <h2>
+                        Queremos que disfrutes con nostros este momento tan especial, por eso hemos decidido no exteder la invitación a los niños.                     
+                    </h2>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fondoazul">
+    <div class="text-white text-center">
+        <p>"Ven por el amor, quédate a la fiesta"</p>
+    </div>
+</section>
+
+<section id="" data-aos="fade-down" data-aos-delay="50">
+    <div class="portfolio-item image-zoom">
+        <div class="image-zoom-wrapper">
+            <img src="./img/0C1A4014.jpg" alt="">
+        </div>
+        <a href="./img/0C1A4014.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+    </div>
+</section>
+
+<section class="section-padding border-top fondoazul">
+    <div class="row">        
+    <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+        <div class="section-title">
+            <h1 class="display-1 fw-semibold titleDorado">Nuestros padres</h1>
+            <br>
+            <div class="text-white">
+                <p>Victor Hugo Espinoza Rodríguez <br>
+                    Alma Rosa Martínez Acevedo <br>
+                    - Padres de la novia - <br>
+                    & <br>
+                    Ulises Alejandro Alemán Moreno <br>
+                    Leticia Sánchez Flores <br>
+                    -Padres del novio -
+                </p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="" data-aos="fade-down" data-aos-delay="50">
+    <div class="portfolio-item image-zoom">
+        <div class="image-zoom-wrapper">
+            <img src="./img/0C1A4139-Edit.jpg" alt="">
+        </div>
+        <a href="./img/0C1A4139-Edit.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+    </div>
+</section>
+
+    <!-- MESA DE REGALOS -->
+<section id="mesaRegalos" class="section-padding border-top">
+    <div class="row">
+        <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="50">
+            <div class="section-title">
+                <h1 class="display-1 fw-semibold titleDorado">Regalos</h1> <br>
+                <p>
+                    Tu presencia es lo mas importante, pero si deseas hacernos
+                    algún obsequio queremos decirte que nuestro hogar ya cuenta
+                    con lo necesario, por lo cual te agradeceremos que tu
+                    aportación sea en efectivo el día del evento en la
+                    “lluvia de
+                    sobres”
+                    o por transferencia a las siguientes cuentas:
+                </p>
+            </div>
+            
+            <div>
+                <div class="mesa me-4">
+                    <img src="./img/tarjeta-de-regalo.png" alt="">
+                </div>
+                <div>
+                    <h5>BBVA: 4142 3142 2337 8004 <br>
+                        SANTANDER: 5579 0701 3738 1573
+                        </h5> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="" data-aos="fade-down" data-aos-delay="50">
+    <div class="portfolio-item image-zoom">
+        <div class="image-zoom-wrapper">
+            <img src="./img/0C1A4174-Edit.jpg" alt="">
+        </div>
+        <a href="./img/0C1A4174-Edit.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+    </div>
+</section>
+
+    <!-- ITINERARIO -->
+    <section id="itinerario" class="fondoazul section-padding border-top" data-aos="fade-down" data-aos-delay="50">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro text-center">
+                        <h2 class="display-1 fw-semibold titleDorado">Protocolo</h2>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="timeline text-white">
+                <div class="content-time left-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Ceremonia <br> Civil</h6>
+                        <p>6:00 P.M. - 7:00 P.M. </p>
+                    </div>
+                </div>
+
+                <div class="content-time right-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Fotos de novios</h6>
+                        <p>7:00 P.M. - 8:00 P.M.</p>
+                    </div>
+                </div>
+
+                <div class="content-time left-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Recepción y entrada de novios</h6>
+                        <p>8:00 P.M. - 8:15 P.M.</p>
+                    </div>
+                </div>
+
+                <div class="content-time right-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Vals</h6>
+                        <p>8:15 P.M. </p>
+                    </div>
+                </div>
+
+                <div class="content-time left-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Ramo y viborita</h6>
+                        <p>8:30 P.M. - 9:00 P.M.</p>
+                    </div>
+                </div>
+
+                <div class="content-time right-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Cena</h6>
+                        <p>10:00 P.M. </p>
+                    </div>
+                </div>
+
+                <div class="content-time left-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Lluvia de sobres</h6>
+                        <p>10:00 P.M.</p>
+                    </div>
+                </div>
+
+                <div class="content-time right-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Fiesta</h6>
+                        <p>10:00 P.M. - 11:00 P.M. </p>
+                    </div>
+                </div>
+
+                <div class="content-time left-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Partida de pastel</h6>
+                        <p>11:00 P.M. - 12:00 P.M.</p>
+                    </div>
+                </div>
+
+                <div class="content-time right-content">
+                    <img src="img/cirulodorado.png">
+                    <div class="text-box text-white">
+                        <h6 class="text-white">Fiesta</h6>
+                        <p>12:00 P.M. - 1:00 A.M. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="" data-aos="fade-down" data-aos-delay="50">
+        <div class="portfolio-item image-zoom">
+            <div class="image-zoom-wrapper">
+                <img src="./img/0C1A3838-Edit.jpg" alt="">
+            </div>
+            <a href="./img/0C1A3838-Edit.jpg" data-fancybox="gallery" class="iconbox"><i class="ri-search-2-line"></i></a>
+        </div>
+    </section>
+
+    <section>
+        <div class="display-1 section-titleP text-center">
+            <h1>¡Te esperamos!</h1>
+            <p>Mariana y Edwin</p>
+            <br>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="fcolor">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright Mayri Bautista. All Rights Reserved</p>
+                        <div class="social-icons">
+                            <a href="https://api.whatsapp.com/send?phone=526182958640&text¡Hola%20quiero%20más%20información!"><i class="ri-whatsapp-fill"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61559654671795&mibextid=kFxxJD"><i class="ri-facebook-box-fill"></i></a>
+                            <a href="https://www.instagram.com/mayribautista_invitations_web?igsh=MWttczRldDBrajBrcg%3D%3D&utm_source=qr"><i class="ri-instagram-fill"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/code.js"></script>
+</body>
+
+</html>
